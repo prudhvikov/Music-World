@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBack">#F8F9FA</color>
+    <color name="colorLayout">#F0F1F2</color>
+    <color name="colorPlay">#F7F9FA</color>
+    <color name="colorSplash">#F8F9FA</color>
+    <color name="darkGray">#cba</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreen">#1ab64f</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorCard">#efefef</color>
+    <color name="colorIcon">#454552</color>
+    <color name="colorDark">#E1F1F5</color>
+
+
+<!--    <color name="ic_launcher_background">@color/colorRed</color>-->
+
+
+    <color name="blackOpaque">#99000000</color>
+    <color name="whiteOpaque">#bcFFFFFF</color>
+    <color name="whiteOpaqueX2">#aaFFFFFF</color>
+    <color name="whiteOpaqueX4">#55FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="blackSubtitle">#77000000</color>
+
+    <!-- Accent Colors -->
+
+    <color name="orange">#ff7043</color>
+    <color name="cyan">#03A9F4</color>
+    <color name="pink">#FB395C</color>
+    <color name="green">#9ccc65</color>
+    <color name="yellow">#ffca28</color>
+    <color name="purple">#ba68c8</color>
+    <color name="red">#CC3C3C</color>
+    <color name="grey">#607d8b</color>
+    <color name="colorRed">#E72C30</color>
+
+    <!-- App Theme -->
+
+    <color name="primaryColor">#000000</color>
+    <color name="primaryDark">#000000</color>
+    <color name="accentColor">#FFFFFF</color>
+    <color name="imageColorAlpha">#66000000</color>
+    <color name="background">#000000</color>
+    <color name="dialogBackground">#252525</color>
+    <color name="progressBarBackground">#44ffffff</color>
+    <color name="navigationBar">#000000</color>
+
+    <color name="textColorTitle">#ffffff</color>
+    <color name="textColorSubTitle">#999</color>
+    <color name="unselected_text">#999</color>
+    <color name="playerControlsBackground">@color/primaryDark</color>
+
+</resources>

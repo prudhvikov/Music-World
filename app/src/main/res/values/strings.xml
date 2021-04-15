@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MusicWorld</string>
+    <string name="allSongs">All Songs</string>
+    <string name="album">Albums</string>
+    <string name="playlist">Playlists</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Favorite Fragment</string>
+    <string name="textview">TextView</string>
+    <string name="todo">ToDo</string>
+    <string name="favorites">Favorites</string>
+    <string name="hello_world">Hello World</string>
+    <string name="welcome_raja">Welcome Raja</string>
+    <string name="home">Home</string>
+    <string name="artists">Artists</string>
+    <string name="search">search</string>
+    <string name="name">Music World</string>
+    <string name="katuka">Kaatuka Kanule</string>
+    <string name="aakasam">Aakasame Hadduga</string>
+    <string name="pause">Pause</string>
+    <string name="prev">prev</string>
+    <string name="next">next</string>
+</resources>

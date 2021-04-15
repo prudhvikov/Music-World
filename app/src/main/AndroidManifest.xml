@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prudhvi.musicworld">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name="com.prudhvi.musicworld.MusicWorld"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat"
+        android:supportsRtl="true">
+        <activity android:name="com.prudhvi.musicworld.Activity.MasterActivity"
+                  android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity
+            android:name="com.prudhvi.musicworld.Activity.NowPlaying"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name="com.prudhvi.musicworld.Activity.AlbumSongs" />
+        <activity
+            android:name="com.prudhvi.musicworld.Activity.AllSongs"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity
+            android:name="com.prudhvi.musicworld.Activity.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.prudhvi.musicworld.Services.MusicPlayerServices"
+                 android:exported="false">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="com.example.musicworld.action.CLOSE" />
+                <action android:name="com.example.musicworld.action.PLAY" />
+                <action android:name="com.example.musicworld.action.PLAY_PAUSE" />
+                <action android:name="com.example.musicworld.action.TRACK_PREV" />
+                <action android:name="com.example.musicworld.action.TRACK_NEXT" />
+            </intent-filter>
+        </service>
+
+
+        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

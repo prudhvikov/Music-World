@@ -1,0 +1,2 @@
+rootProject.name='MusicWorld'
+include ':app'
